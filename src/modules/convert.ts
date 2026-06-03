@@ -177,6 +177,7 @@ export function buildConvertForm(
 
   // Always request markdown — that's the whole point of the plugin.
   form.append("to_formats", "md");
+  form.append("image_export_mode", "placeholder");
   form.append("abort_on_error", "false");
 
   // --- Tier 1: essentials ---
